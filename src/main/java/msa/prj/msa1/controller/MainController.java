@@ -20,5 +20,11 @@ public class MainController {
     public String home() {
         return "home";
     }
+
+    @GetMapping("/test")
+    public String test(){
+        System.out.println("asdf");
+        return "test";
+    }
     
 }
